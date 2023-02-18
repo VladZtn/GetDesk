@@ -1,0 +1,395 @@
+@font-face {
+    font-family: 'Helvetica Medium';
+    src: url(font/HelveticaMedium/HelveticaMedium.ttf);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica Medium';
+}
+/* ======================================== Header Css ======================================== */
+header{
+    position: absolute;
+    width: 1920px;
+    height: 1060px;
+    left: 0px;
+    top: -73px;
+    background-image: url(images/office.png);
+    background-repeat: no-repeat;
+}
+
+.header-body{
+    background: #36353C;
+    width: 1920px;
+    height: 914px;
+    left: 0px;
+    top: 0px;
+    mix-blend-mode: hard-light;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.menu h2{
+    position: absolute;
+    top: 80px;
+    left: 103px;
+    color: #fff;
+    font-size: 30px;
+    z-index: 1;
+}
+
+#internet{
+    position: absolute;
+    top: 110px;
+    right: 350px;
+    z-index: 1;
+}
+
+#profile{
+    position: absolute;
+    top: 110px;
+    right: 300px;
+    z-index: 1;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 800px;
+    position: relative;
+    right: 100px;
+}
+
+.search h2{
+    font-size: 52px;
+    font-weight: 700;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.search h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #fff;
+    margin-top: -20px;
+}
+
+#city, #date{
+    width: 350px;
+    height: 45px;
+    box-sizing: border-box;
+    padding: 18px 25px;
+    gap: 173px;
+    background: #FFFFFF;
+    border: 1px solid #C7C7C7;
+    border-radius: 4px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+#search-btn{
+    width: 252px;
+    height: 60px;
+    background: rgb(237, 64, 64);
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+/* ======================================== Info Block ======================================== */
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 1600px;
+    height: 400px;
+    top: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 400px;
+}
+
+#first-hr, #second-hr{
+    width: 200px;
+    position: relative;
+    transform: rotate(90deg);
+    border: 1px solid #C4C4C4;
+}
+/* ============= main div's ============= */
+.first-info-div, .second-info-div, .third-info-div{
+    display: flex;
+    flex-direction: column;
+    height: 236px;
+    width: 450px;
+    margin-top: 75px;
+}
+/* ============= icons ============= */
+#safe, #padlock, #add-user{
+    position: relative;
+    margin-bottom: -25px;
+}
+
+/* ============= h3 & h4 ============= */
+#first-div-h3, #second-div-h3, #third-div-h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 26px;
+    color: #ED4040;
+    margin-bottom: -15px;
+}
+#first-div-h4, #second-div-h4, #third-div-h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #131313;
+    position: relative;
+}
+/* ======================================== The Most Rentability ======================================== */
+.the-most-rentability{
+    height: 1500px;
+    position: relative;
+    width: 1700px;
+    height: 530px;
+    margin-left: auto;
+    margin-right: auto;
+    top: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 530;
+    width: 450px;
+   gap: 20px;
+}
+
+.first-home, .second-home, .third-home, .fourth-home {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.home-container img{
+    border-radius: 5px;
+}
+
+.home-container h6{
+    color: rgba(237, 64, 64, 1);
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5px;
+}
+
+.home-container h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    text-align: left;
+    margin-top: -20px;
+    margin-left: 5px;
+}
+
+.home-container span{
+    color: rgba(19, 19, 19, 1);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+#home-place{
+    position: absolute;
+    top: 450px;
+    margin-left: 5px;
+}
+
+#raiting{
+    position: relative;
+    left: 90px;
+}
+
+.home-container h5{
+    margin-top: -10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+}
+/* ======================================== Rent image ======================================== */
+.rent-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+}
+
+.rent-image img{
+    position: relative;
+    top: 500px;
+    height: 700px;
+    width: 1600px;
+    border-radius: 10px;
+}
+
+.interesting{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+}
+
+#after-rent{
+    position: relative;
+    top: 500px;
+    left: 40px;
+    font-family: Helvetica Neue;
+    font-size: 32px;
+    font-weight: 500;
+}
+/* ======================================== Work Place ======================================== */
+.work-place{
+    height: 700px;
+    width: 1600px;
+    background-image: url(images/Prewiew2.png);
+    background-repeat: no-repeat;
+    position: relative;
+    top: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.work-container{
+    height: 620px;
+    width: 1600px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    background: linear-gradient(90.58deg, rgba(19, 19, 19, 0.9) 4.69%, rgba(19, 19, 19, 0.7) 52.83%, rgba(19, 19, 19, 0) 99.43%);
+}
+
+.work-container h3{
+    position: absolute;
+    width: 608px;
+    height: 118px;
+    left: 190px;
+    top: 129px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    color: #FFFFFF;
+}
+
+.work-container h4{
+    position: absolute;
+    width: 379px;
+    height: 40px;
+    left: 190px;
+    top: 277px;
+    font-family: 'HelveticaNeueCyr';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.work-container button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 19px 50px 22px;
+    gap: 10px;
+    position: absolute;
+    width: 278px;
+    height: 70px;
+    left: 190px;
+    top: 395px;
+    background: #ED4040;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Helvetica Neue';
+    font-size: 24px;
+    line-height: 28px;
+    cursor: pointer;
+}
+/* ======================================== Community ======================================== */
+#comm-text{
+    position: absolute;
+    width: 500px;
+    height: 63px;
+    left: 110px;
+    top: 4250px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    color: #000000;
+}
+
+.community{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+}
+
+#first-community, #second-community, #third-community {
+    position: relative;
+    color: #fff;
+    top: -100px;
+}
+
+#first-img{
+    position: relative;
+    top: -15px;
+}
+
+/* ======================================== Footer ======================================== */
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 250px;
+    height: 400px;
+    gap: 100px;
+}
+
+footer h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+footer h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+/* ======================================== Footer End ======================================== */
